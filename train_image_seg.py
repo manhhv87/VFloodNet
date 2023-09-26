@@ -69,14 +69,14 @@ def train(args):
         train_dataset,
         batch_size=batch_size,
         shuffle=True,
-        num_workers=4
+        num_workers=2
     )
 
     val_loader = data.DataLoader(
         val_dataset,
         batch_size=1,
         shuffle=False,
-        num_workers=4
+        num_workers=2
     )
 
     linknet_model = smp.Linknet(
