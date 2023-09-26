@@ -262,6 +262,3 @@ python train_video_seg.py \
 }
 ```
 This paper was published in Environmental Modelling & Software, Elsevier (2023). The corresponding author is Xin Li (Xin Li <xin.shane.li@ieee.org>).  All rights are reserved.
-#   V F l o o d N e t  
- #   V F l o o d N e t  
- 
